@@ -1,4 +1,4 @@
-package cn.bingoogolapple.qrcode.core;
+package com.bojun.core;
 
 import android.content.Context;
 import android.content.pm.PackageManager;

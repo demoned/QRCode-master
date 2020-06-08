@@ -1,7 +1,8 @@
-package cn.bingoogolapple.qrcode.zxing;
+package com.bojun.zxing;
 
 import android.graphics.Bitmap;
 
+import com.bojun.core.BGAQRCodeUtil;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.BinaryBitmap;
 import com.google.zxing.DecodeHintType;
@@ -17,13 +18,6 @@ import java.util.EnumMap;
 import java.util.List;
 import java.util.Map;
 
-import cn.bingoogolapple.qrcode.core.BGAQRCodeUtil;
-
-/**
- * 作者:王浩 邮件:bingoogolapple@gmail.com
- * 创建时间:16/4/8 下午11:22
- * 描述:解析二维码图片。一维条码、二维码各种类型简介 https://blog.csdn.net/xdg_blog/article/details/52932707
- */
 public class QRCodeDecoder {
     static final Map<DecodeHintType, Object> ALL_HINT_MAP = new EnumMap<>(DecodeHintType.class);
 

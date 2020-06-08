@@ -1,4 +1,4 @@
-package cn.bingoogolapple.qrcode.core;
+package com.bojun.core;
 
 import android.graphics.Bitmap;
 import android.hardware.Camera;

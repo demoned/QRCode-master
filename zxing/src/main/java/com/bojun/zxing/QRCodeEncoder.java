@@ -1,4 +1,4 @@
-package cn.bingoogolapple.qrcode.zxing;
+package com.bojun.zxing;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -16,11 +16,6 @@ import java.util.EnumMap;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * 作者:王浩 邮件:bingoogolapple@gmail.com
- * 创建时间:16/4/8 下午11:22
- * 描述:创建二维码图片
- */
 public class QRCodeEncoder {
     public static final Map<EncodeHintType, Object> HINTS = new EnumMap<>(EncodeHintType.class);
 

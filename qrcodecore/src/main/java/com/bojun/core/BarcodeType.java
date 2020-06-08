@@ -1,10 +1,5 @@
-package cn.bingoogolapple.qrcode.core;
+package com.bojun.core;
 
-/**
- * 作者:王浩
- * 创建时间:2018/6/20
- * 描述:识别的格式
- */
 public enum BarcodeType {
     /**
      * 所有格式
