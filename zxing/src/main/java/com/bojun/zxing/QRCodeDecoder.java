@@ -1,8 +1,6 @@
 package com.bojun.zxing;
 
 import android.graphics.Bitmap;
-
-import com.bojun.core.BGAQRCodeUtil;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.BinaryBitmap;
 import com.google.zxing.DecodeHintType;
@@ -17,6 +15,8 @@ import java.util.Collections;
 import java.util.EnumMap;
 import java.util.List;
 import java.util.Map;
+
+import core.BGAQRCodeUtil;
 
 public class QRCodeDecoder {
     static final Map<DecodeHintType, Object> ALL_HINT_MAP = new EnumMap<>(DecodeHintType.class);

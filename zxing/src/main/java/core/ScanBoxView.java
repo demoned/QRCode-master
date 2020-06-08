@@ -1,4 +1,4 @@
-package com.bojun.core;
+package core;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -17,6 +17,8 @@ import android.text.TextPaint;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.View;
+
+import com.bojun.zxing.R;
 
 public class ScanBoxView extends View {
     private int mMoveStepDistance;

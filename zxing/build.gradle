@@ -11,5 +11,4 @@ android {
 
 dependencies {
     api 'com.google.zxing:core:3.3.3'
-    implementation project(':qrcodecore')
 }

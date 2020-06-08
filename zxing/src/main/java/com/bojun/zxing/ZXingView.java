@@ -7,10 +7,6 @@ import android.graphics.Rect;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 
-import com.bojun.core.BGAQRCodeUtil;
-import com.bojun.core.BarcodeType;
-import com.bojun.core.QRCodeView;
-import com.bojun.core.ScanResult;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.BinaryBitmap;
 import com.google.zxing.DecodeHintType;
@@ -22,6 +18,11 @@ import com.google.zxing.common.GlobalHistogramBinarizer;
 import com.google.zxing.common.HybridBinarizer;
 
 import java.util.Map;
+
+import core.BGAQRCodeUtil;
+import core.BarcodeType;
+import core.QRCodeView;
+import core.ScanResult;
 
 public class ZXingView extends QRCodeView {
     private MultiFormatReader mMultiFormatReader;

@@ -1,4 +1,4 @@
-package com.bojun.core;
+package core;
 
 import android.graphics.Bitmap;
 import android.hardware.Camera;

@@ -1,2 +1,2 @@
 rootProject.name='QRCode-master'
-include ':app',':qrcodecore', ':zxing'
+include ':app', ':zxing'

@@ -31,6 +31,8 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-    api project(path: ':zxing')
     implementation 'pub.devrel:easypermissions:1.0.1'
+//    implementation 'com.github.demoned.QRCode-master:qrcodecore:1.0.2'
+    implementation project(path: ':zxing')
+
 }

@@ -1,4 +1,4 @@
-package com.bojun.core;
+package core;
 
 public enum BarcodeType {
     /**

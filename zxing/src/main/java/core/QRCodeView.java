@@ -1,4 +1,4 @@
-package com.bojun.core;
+package core;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -15,6 +15,9 @@ import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.RelativeLayout;
+
+import com.bojun.zxing.R;
+
 
 public abstract class QRCodeView extends RelativeLayout implements Camera.PreviewCallback {
     private static final int NO_CAMERA_ID = -1;
@@ -66,7 +69,7 @@ public abstract class QRCodeView extends RelativeLayout implements Camera.Previe
         mScanBoxView.init(this, attrs);
         mCameraPreview.setId(R.id.bgaqrcode_camera_preview);
         addView(mCameraPreview);
-        RelativeLayout.LayoutParams layoutParams = new RelativeLayout.LayoutParams(context, attrs);
+        LayoutParams layoutParams = new LayoutParams(context, attrs);
         layoutParams.addRule(RelativeLayout.ALIGN_TOP, mCameraPreview.getId());
         layoutParams.addRule(RelativeLayout.ALIGN_BOTTOM, mCameraPreview.getId());
         addView(mScanBoxView, layoutParams);

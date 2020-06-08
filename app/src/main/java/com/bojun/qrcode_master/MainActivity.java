@@ -1,7 +1,9 @@
 package com.bojun.qrcode_master;
 
 import android.Manifest;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -44,5 +46,9 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
         if (!EasyPermissions.hasPermissions(this, perms)) {
             EasyPermissions.requestPermissions(this, "扫描二维码需要打开相机和散光灯的权限", REQUEST_CODE_QRCODE_PERMISSIONS, perms);
         }
+    }
+
+    public void onclick(View view) {
+        startActivity(new Intent(this, TestScanActivity.class));
     }
 }
